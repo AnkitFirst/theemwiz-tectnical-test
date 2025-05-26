@@ -1,0 +1,63 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.contact-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('https://tile.openstreetmap.org/14/8799/5372.png') center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  max-width: 350px;
+  width: 100%;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  color: #3a1c0d;
+}
+
+.contact-form h2 {
+  margin-top: 0;
+  color: #3a1c0d;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 10px 0;
+  border: 1px solid #f1bfae;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.contact-form select {
+  appearance: none;
+  background: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23f26548' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E") no-repeat right 14px center/16px 16px;
+}
+
+.contact-form button {
+  background-color: #f26548;
+  border: none;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  
+}
+
